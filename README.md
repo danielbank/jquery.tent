@@ -27,9 +27,9 @@ $("#pop-up").tent('hide');
 
 Options
 ===========
-left: where to display the left edge of the popup element (pixel)
+**left**: where to display the left edge of the popup element (pixel)
 
-top: where to display the top edge of the popup element (pixel)
+**top**: where to display the top edge of the popup element (pixel)
 
 Credits
 ===========
