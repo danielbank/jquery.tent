@@ -5,23 +5,23 @@ A simple jQuery plugin for creating simple pop-ups simply.
 
 Usage
 ===========
-Set defaults:
+**Set defaults:**
 
 $.tent.setDefaults(left: 0, top: 0});
 
-Initialization:
+**Initialization:**
 
 $("#pop-up").tent();
 
-Change options:
+**Change options:**
 
 $("#pop-up").tent('option', {left: 0, top: 0});
 
-Show the popup:
+**Show the popup:**
 
 $("#pop-up").tent('show');
 
-Hide the popup:
+**Hide the popup:**
 
 $("#pop-up").tent('hide');
 
