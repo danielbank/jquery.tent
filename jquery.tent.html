@@ -8,7 +8,8 @@
     </head>
     <body>
 		<div>
-			<a href="#" id="show-popup">Show Pop-up</a>
+			<a href="#" id="show-popup">Show Pop-up</a><br>
+			<a href="http://www.annuit.com">Annuit</a>
 			
 			<h1>Dolce et decorum est pro patria mori</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit</b>. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
@@ -40,7 +41,7 @@
 			// Initialize click event on show-popup link to show the pop-up
 			$("#show-popup").click(function() {
 				// Figure out where the center of the window is and correct the left and top coordinates of the popup accordingly
-				var viewportHeight = $(window).width();
+				var viewportHeight = $(window).height();
 				var viewportWidth = $(window).width();
 				var dialogWidth = $("#pop-up").width();
 				var dialogHeight = $("#pop-up").height();
