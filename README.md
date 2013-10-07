@@ -25,6 +25,10 @@ $("#pop-up").tent('show');
 
 $("#pop-up").tent('hide');
 
+**Simple demo here:**
+
+http://www.annuit.com/jquerytent
+
 Options
 ===========
 **left**: where to display the left edge of the popup element (pixel)
